@@ -5,11 +5,13 @@ ReactJs Project
 
 to use this we modify viteconfig file and css file name
 
-# Link
-![Project Link](https://sharma-natvar.netlify.app/)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sharma-natvar.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharmanatvar/)
 
 # Screenshots1
-
+https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/profile1.jpg
 ## Home
 
 ![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img0.png)
