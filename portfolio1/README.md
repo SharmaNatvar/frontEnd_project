@@ -6,38 +6,37 @@ to use this we modify viteconfig file and css file name
 
 
 
-## Screenshots1
+# Screenshots1
 
-### Home
+## Home
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/tree/main/portfolio1/assets/ss/img0.png)
-
-
-## Screenshots
-### About
-
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/tree/main/portfolio1/assets/ss/img1.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img0.png)
 
 
 
-## Screenshots
-### Experience
+## About
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/tree/main/portfolio1/assets/ss/img2.png)
-
-
-
-## Screenshots
-### Project
-
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/tree/main/portfolio1/assets/ss/img3.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img1.png)
 
 
 
-## Screenshots
-### Footer
+## Experience
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/tree/main/portfolio1/assets/ss/img4.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img2.png)
+
+
+
+
+## Project
+
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img3.png)
+
+
+
+
+## Footer
+
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio1/assets/ss/img4.png)
 
 
 
