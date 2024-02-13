@@ -1,33 +1,35 @@
 
-## Screenshots1
+# Screenshots
 
-### Home
+## Home
 
 ![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img0.png)
 
-## Screenshots
-### Skill
+
+
+
+## Skill
 
 ![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img1.png)
 
 
 
-## Screenshots
-### Project
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img12.png)
+## Project
+
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img2.png)
 
 
 
-## Screenshots
-### Work Experience
+
+## Work Experience
 
 ![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img3.png)
 
 
 
-## Screenshots
-### Contact + Footer
+
+## Contact + Footer
 
 ![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/portfolio2/src/assets/ss/img4.png)
 
