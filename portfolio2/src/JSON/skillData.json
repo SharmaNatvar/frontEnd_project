@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "Frontend",
+        "icon":"frontend.png",
+        "skills":[
+            {"skill":"HTML5" },
+            {"skill":"CSS3(SCSS, BootStrap)" },
+            {"skill":"JavaScript" },
+            {"skill":"ReactJs" }
+        ]
+    },
+    {
+        "title" : "Backend",
+        "icon":"backend.png",
+        "skills":[
+            {"skill":"NodeJS" },
+            {"skill":"Express.js" }
+        ]
+    },
+    {
+        "title" : "Tools",
+        "icon":"tools.png",
+        "skills":[
+            {"skill":"Git & GitHub" },
+            {"skill":"Visual Studio Code" },
+            {"skill":"Responsive Design" }
+        ]
+    },
+    {
+        "title" : "Soft Skill",
+        "icon":"soft-skills.png",
+        "skills":[
+            {"skill":"Problem-solving" },
+            {"skill":"Positive attitude" }
+        ]
+    }
+]
