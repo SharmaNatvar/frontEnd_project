@@ -1,0 +1,41 @@
+// nav bar css start
+
+.NavbarBg {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(184, 224, 254);
+
+    .Navbar {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Navbar_Title {
+            font-size: 1.4rem;
+
+            span {
+                color: red;
+            }
+        }
+
+        .Navbar_Items {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1.5rem;
+
+            .Navbar_Item {
+                font-size: 1.3rem;
+                cursor: pointer;
+
+                a:hover {
+                    color: #f2ffa7;
+                }
+            }
+        }
+    }
+}
+
+// nav bar css end

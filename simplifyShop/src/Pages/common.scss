@@ -1,0 +1,94 @@
+// emply Card
+
+.employBg{
+    display: flex;
+    flex-direction: row;
+    
+    .employFilterSction{
+        flex: 2;
+        max-width: 200px;
+        // height: 100%;
+        // position: fixed;
+        // grid-area: calc(100% - 100px);
+        border: 1px solid red;
+        padding: 1rem;
+        // padding: 0 auto;
+        button{
+margin: 0.4rem;
+        }
+        .employFilterTitle{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            font-weight: bolder;
+        }
+        .employFilterSalary{
+            margin: 1.2rem 0;
+            p{
+                font-size: larger;
+            }
+            div{
+                font-size: 0.6rem;
+display: flex;
+justify-content: space-between;
+            }
+            input{
+                width: 100%;
+            }
+        }
+    }
+    .cardBG {
+        // max-width: calc(100% - 250px);
+        display: flex;
+        // flex-direction: row-reverse;
+        grid-area: auto;
+        justify-content: space-around;
+        flex: 4;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin: 1.5rem;
+        // margin-left: auto;
+    
+        .emplyCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            box-shadow: 0 0 10px 1px rgb(108, 108, 108),;
+    
+            .emplyCardImg {
+                width: 13rem;
+                height: 13rem;
+                // border-radius: 50%;
+            }
+    
+            .emplyCardBody {
+                margin: 1rem 0;
+                font-size: 1.2rem;
+    
+                .emplyCardName {
+                    font-size: 1.9rem;
+                    text-transform: capitalize;
+                    text-align: center;
+                    margin-bottom: 0.2rem;
+                }
+                .emplyBtns{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    
+}
+
+
+// .emplyCardEmail
+// .emplyCardNumber
+// .emplyCardAddar
+// .emplyCard
+// .emplyCardImg
+// .emplyCardAddres
