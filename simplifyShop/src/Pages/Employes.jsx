@@ -1,16 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./common.scss";
 import Container from "../Component/Container";
 import Card from "../Component/Card";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { READ_EMPLOY_PENDING } from "../redux-saga/admin/action/action";
 
 const Employes = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const [card, setCard] = useState([]);
+  const { data } = useSelector((state) => state.adminReducer.data);
+
+  useEffect(() => {
+    dispatch({ type: READ_EMPLOY_PENDING });
+  }, []);
+
+  useEffect(() => {
+    setCard(data);
+  }, [data]);
+
+  console.log(card, "card");
+
   return (
     <>
       <div>
         <Container>
           <div className="employBg">
             <div className="employFilterSction">
-            <button><h3>Add Employ</h3></button>
+              <button onClick={() => navigate("/addfrom")}>
+                <h3>Add Employ</h3>
+              </button>
               <div className="employFilterTitle">
                 <p>Filter</p>
                 <p>Clear</p>
@@ -29,15 +49,15 @@ const Employes = () => {
                 <ul>
                   <li>
                     <input type="checkbox" value="worker" />
-                    <label >Worker</label>
+                    <label>Worker</label>
                   </li>
                   <li>
                     <input type="checkbox" value="superviser" />
-                    <label >Superviser</label>
+                    <label>Superviser</label>
                   </li>
                   <li>
                     <input type="checkbox" value="peon" />
-                    <label >Peon</label>
+                    <label>Peon</label>
                   </li>
                 </ul>
               </div>
@@ -46,24 +66,28 @@ const Employes = () => {
                 <ul>
                   <li>
                     <input type="radio" value="present" />
-                    <label >Present</label>
+                    <label>Present</label>
                   </li>
                   <li>
                     <input type="radio" value="Absent" />
-                    <label >Absent</label>
+                    <label>Absent</label>
                   </li>
                 </ul>
               </div>
             </div>
             {/* card section */}
             <div className="cardBG">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
+              {card?.map((e) => {
+                return (
+                  <Card
+                    employAadhar={e.employAadhar}
+                    employAddress={e.employAddress}
+                    employEmail={e.employEmail}
+                    employName={e.employName}
+                    employNumber={e.employNumber}
+                  />
+                );
+              })}
             </div>
           </div>
         </Container>

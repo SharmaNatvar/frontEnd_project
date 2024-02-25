@@ -7,6 +7,7 @@ import Signin from "./Component/auth/Signin";
 import NotFound from "./Pages/NotFound";
 import Employes from "./Pages/Employes";
 import Product from "./Pages/Product";
+import AddForm from "./Component/AddForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/employ" element={<Employes />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/addfrom" element={<AddForm/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </>

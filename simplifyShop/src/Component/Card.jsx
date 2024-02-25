@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import profile from "../assets/profile.jpg"
+import { useSelector } from "react-redux";
 
-const Card = () => {
+const Card = ({employAadhar ,
+    employAddress ,
+    employEmail ,
+    employName ,
+    employNumber}) => {
+
   return (
     <>
       <div className="emplyCard">
         <img src={profile} className="emplyCardImg" alt="Profile" />
         <div className="emplyCardBody">
-          <h3 className="emplyCardName">json</h3>
-          <p className="emplyCardEmail">redux@gmail</p>
-          <p className="emplyCardNumber">9978543917</p>
-          <p className="emplyCardAddar">1234567890987654321</p>
-          <p className="emplyCardAddres">204,rajplace surat near gujract</p>
+          <h3 className="emplyCardName">{employName}</h3>
+          <p className="emplyCardEmail">{employEmail}</p>
+          <p className="emplyCardNumber">{employNumber}</p>
+          <p className="emplyCardAddar">{employAadhar}</p>
+          <p className="emplyCardAddres">{employAddress}</p>
           <div className="emplyBtns">
             <button>update</button>
             <button>delete</button>

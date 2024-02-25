@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth'
-import {getFirebase } from 'redux-saga-firebase'
+import {getFirestore} from 'firebase/firestore'
 
 
 const firebaseConfig = {
@@ -14,6 +14,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const reduxSagaApp = new getFirebase(app)
-export const idPassDB = getAuth(reduxSagaApp)
+// const reduxSagaApp = new getFirebase(app)
+export const idPassDB = getAuth(app)
+export const txtDB =  getFirestore(app);
 
