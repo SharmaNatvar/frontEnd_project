@@ -100,6 +100,20 @@
         }
     }
 
+    .addemploy_select{
+        label{
+            // margin: 1rem 0;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        select{
+            margin: 0.4rem 0 1rem 1rem;
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            border-radius: 10px;
+        }
+    }
+
     .addemploy_img {
         width: 100%;
         margin: 1rem 0;

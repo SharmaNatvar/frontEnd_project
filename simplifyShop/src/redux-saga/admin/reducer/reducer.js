@@ -1,4 +1,4 @@
-import { CREATE_EMPLOY_FULFILLED, CREATE_EMPLOY_PENDING, CREATE_EMPLOY_REJECTED, READ_EMPLOY_FULFILLED, READ_EMPLOY_PENDING, READ_EMPLOY_REJECTED } from "../action/action";
+import { CREATE_EMPLOY_FULFILLED, CREATE_EMPLOY_PENDING, CREATE_EMPLOY_REJECTED, DELETE_EMPLOY_FULFILLED, DELETE_EMPLOY_PENDING, DELETE_EMPLOY_REJECTED, READ_EMPLOY_FULFILLED, READ_EMPLOY_PENDING, READ_EMPLOY_REJECTED, UPDATE_EMPLOY_FULFILLED, UPDATE_EMPLOY_PENDING, UPDATE_EMPLOY_REJECTED } from "../action/action";
 
 const initialState = {
     data : [],
@@ -9,7 +9,6 @@ const initialState = {
 
 
 const adminReducer = (state =initialState , action ) =>{
-console.log(action , 'action readucer');
     switch(action.type){
         // read
         case READ_EMPLOY_PENDING:{
@@ -58,6 +57,53 @@ console.log(action , 'action readucer');
             error:action.data
           }
         }
+
+        // delete
+        case DELETE_EMPLOY_PENDING: {
+            return {
+              ...state,
+              loading: true,
+            }
+          }
+      
+          case DELETE_EMPLOY_FULFILLED:{
+            return{
+              ...state,
+              loading :false ,
+              error:null,
+            }
+          }
+      
+          case DELETE_EMPLOY_REJECTED:{
+            return{
+              ...state,
+              loading: false,
+              error: action.payload,
+            }
+          }
+
+          // update 
+
+          case UPDATE_EMPLOY_PENDING: {
+            return {
+              ...state,
+              loading: true,
+            };
+          }
+          case UPDATE_EMPLOY_FULFILLED: {
+            return {
+              ...state,
+              loading: false,
+              error: null,
+            };
+          }
+          case UPDATE_EMPLOY_REJECTED: {
+            return {
+              ...state,
+              loading: false,
+              error: action.payload,
+            };
+          }
 
         default:{
             return{

@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
+import {getStorage} from 'firebase/storage'
 
 
 const firebaseConfig = {
@@ -17,4 +18,5 @@ const app = initializeApp(firebaseConfig);
 // const reduxSagaApp = new getFirebase(app)
 export const idPassDB = getAuth(app)
 export const txtDB =  getFirestore(app);
+export const imgDB = getStorage(app)
 

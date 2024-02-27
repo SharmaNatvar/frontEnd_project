@@ -1,10 +1,10 @@
 // emply Card
 
-.employBg{
+.employBg {
     display: flex;
     flex-direction: row;
-    
-    .employFilterSction{
+
+    .employFilterSction {
         flex: 2;
         max-width: 200px;
         // height: 100%;
@@ -12,31 +12,72 @@
         // grid-area: calc(100% - 100px);
         border: 1px solid red;
         padding: 1rem;
+
         // padding: 0 auto;
-        button{
-margin: 0.4rem;
+        button {
+            margin: 1.4rem;
         }
-        .employFilterTitle{
+
+        .employFilterTitle {
             display: flex;
             justify-content: space-between;
             font-size: 1.6rem;
             font-weight: bolder;
+
+            p:last-child {
+                cursor: pointer;
+
+                &:hover {
+                    color: red;
+
+                }
+            }
         }
-        .employFilterSalary{
-            margin: 1.2rem 0;
-            p{
-                font-size: larger;
+
+        .employFilterSalary {
+            margin: 2rem 0;
+
+            >p {
+                font-size: 1.4rem;
             }
-            div{
+
+            div>p {
+                font-size: 1rem;
+
+            }
+
+
+            div {
                 font-size: 0.6rem;
-display: flex;
-justify-content: space-between;
+                margin: 0.4rem 0;
+                display: flex;
+                justify-content: space-between;
             }
-            input{
+
+            input {
                 width: 100%;
             }
         }
+        .employFilterCategory{
+            h2{
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+            ul>li{
+                margin: 0.4rem;
+            }
+        }
+        .searchemploy_input{
+            margin-top: 1rem;
+            label{
+                font-size: 1.6rem;
+            }
+            input{
+                margin-top: 0.4rem;
+            }
+        }
     }
+
     .cardBG {
         // max-width: calc(100% - 250px);
         display: flex;
@@ -48,7 +89,7 @@ justify-content: space-between;
         flex-wrap: wrap;
         margin: 1.5rem;
         // margin-left: auto;
-    
+
         .emplyCard {
             display: flex;
             flex-direction: column;
@@ -56,25 +97,26 @@ justify-content: space-between;
             padding: 1rem;
             border: 1px solid black;
             border-radius: 1rem;
-            box-shadow: 0 0 10px 1px rgb(108, 108, 108),;
-    
+            box-shadow: 0 0 10px 1px rgb(108, 108, 108), ;
+
             .emplyCardImg {
                 width: 13rem;
                 height: 13rem;
                 // border-radius: 50%;
             }
-    
+
             .emplyCardBody {
                 margin: 1rem 0;
                 font-size: 1.2rem;
-    
+
                 .emplyCardName {
                     font-size: 1.9rem;
                     text-transform: capitalize;
                     text-align: center;
                     margin-bottom: 0.2rem;
                 }
-                .emplyBtns{
+
+                .emplyBtns {
                     display: flex;
                     justify-content: space-between;
                     margin-top: 1rem;
@@ -82,7 +124,7 @@ justify-content: space-between;
             }
         }
     }
-    
+
 }
 
 

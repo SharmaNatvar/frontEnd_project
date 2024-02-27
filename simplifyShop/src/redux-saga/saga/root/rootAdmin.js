@@ -7,8 +7,8 @@
 //   }
 
 import { takeLatest } from "redux-saga/effects";
-import { CREATE_EMPLOY_PENDING, READ_EMPLOY_PENDING } from "../../admin/action/action";
-import { createItem, readItems } from "../admin/adminSaga";
+import { CREATE_EMPLOY_PENDING, DELETE_EMPLOY_PENDING, READ_EMPLOY_PENDING, UPDATE_EMPLOY_PENDING } from "../../admin/action/action";
+import { createItem, deleteItem, readItems, updateItem } from "../admin/adminSaga";
 
 
 // create data
@@ -20,4 +20,14 @@ export function* createItemSaga(){
 // read data
 export function* readItemSaga(){
     yield takeLatest(READ_EMPLOY_PENDING , readItems);
+} 
+
+// delete data
+export function* deleteItemSaga(){
+    yield takeLatest(DELETE_EMPLOY_PENDING , deleteItem);
+} 
+
+// update data
+export function* updateItemSaga(){
+    yield takeLatest(UPDATE_EMPLOY_PENDING , updateItem);
 } 
