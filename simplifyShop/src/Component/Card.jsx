@@ -35,15 +35,20 @@ const handleDeleteClick = (id) => {
       text: "You clicked the button!",
       icon: "success",
       button: "ok",
-    });
-    navigate('/home')
+    })
+    .then(()=>{
+      window.location.reload(false)
+    })
+    // navigate('/home')
   };
 
-
+console.log(id , 'id');
 
   return (
     <>
-      <div className="emplyCard">
+      
+        
+        <div className="emplyCard">
         <img src={url} className="emplyCardImg" alt="Profile" />
         <div className="emplyCardBody">
           <h3 className="emplyCardName">{employName}</h3>
@@ -59,6 +64,7 @@ const handleDeleteClick = (id) => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

@@ -128,9 +128,41 @@
 }
 
 
-// .emplyCardEmail
-// .emplyCardNumber
-// .emplyCardAddar
-// .emplyCard
-// .emplyCardImg
-// .emplyCardAddres
+
+
+
+
+
+
+
+.productTitle{
+    h1{
+        text-align: center;
+        margin: 4rem 0;
+    }
+}
+
+
+.tableBg{
+    border-spacing: 0;
+    margin: 2rem auto;
+    tr ,th ,td{
+        border: 1px solid black;
+        padding: 1rem;
+    } 
+    th{
+        font-size: 1.5rem;
+    }
+    td{
+        font-size: 1.2rem;
+        // margin: 0 auto;
+        text-align: center;
+        div > span{
+            padding: 0 0.4rem;
+            cursor: pointer;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}

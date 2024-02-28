@@ -54,7 +54,6 @@ const Employes = () => {
     const result = data?.filter((e) => {
       return e.employName.trim() === val.target.value;
     });
-    console.warn(result);
     setCard(result);
   };
   
@@ -140,7 +139,9 @@ const Employes = () => {
             </div>
             {/* card section */}
             <div className="cardBG">
-              {card?.map((e, index) => {
+            
+              {
+                card?.map((e, index) => {
                 return (
                   <div key={index}>
                     <Card

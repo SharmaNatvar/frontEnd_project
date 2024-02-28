@@ -8,6 +8,7 @@ import NotFound from "./Pages/NotFound";
 import Employes from "./Pages/Employes";
 import Product from "./Pages/Product";
 import AddForm from "./Component/AddForm";
+import AddProduct from "./Component/AddProduct";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         {/* <Route path="/addfrom" element={<AddForm/>}/> */}
         <Route path="/addfrom/:id" element={<AddForm/>}/>
+        <Route path="/addproduct/:id" element={<AddProduct/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </>
