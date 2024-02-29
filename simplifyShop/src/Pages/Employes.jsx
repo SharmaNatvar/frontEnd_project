@@ -5,6 +5,7 @@ import Card from "../Component/Card";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { READ_EMPLOY_PENDING } from "../redux-saga/admin/action/action";
+import Navbar from "../Component/Navbar";
 
 const Employes = () => {
   const dispatch = useDispatch();
@@ -60,6 +61,7 @@ const Employes = () => {
   return (
     <>
       <div>
+      <Navbar />
         <Container>
           <div className="employBg">
             <div className="employFilterSction">
@@ -78,7 +80,6 @@ const Employes = () => {
                   name="inputSearch"
                   onChange={(e) => handleOnChangeSearch(e)}
                   placeholder="Search Name"
-                  // value={inputData.employAddress || ""}
                 />
               </div>
               <div className="employFilterSalary">

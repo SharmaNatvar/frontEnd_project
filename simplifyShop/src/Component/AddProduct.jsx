@@ -105,7 +105,7 @@ const AddProduct = () => {
         </div>
 
         <div className="addemploy_btn">
-          <button onClick={() => navigate("/employ")}>Cancel</button>
+          <button onClick={() => navigate("/product")}>Cancel</button>
           {id === "id" ? (
             <button onClick={handleSumbit}>Add</button>
           ) : (

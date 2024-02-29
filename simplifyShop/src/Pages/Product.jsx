@@ -4,6 +4,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { READ_PRODUCT_PENDING } from "../redux-saga/admin/action/action";
+import Navbar from "../Component/Navbar";
 
 const Product = () => {
   const navigate = useNavigate();
@@ -23,6 +24,7 @@ const Product = () => {
 
   return (
     <>
+          <Navbar />
       <div>
         <Container>
           <div className="productTitle">

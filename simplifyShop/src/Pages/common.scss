@@ -3,17 +3,13 @@
 .employBg {
     display: flex;
     flex-direction: row;
-
+    padding-top: 5rem;
     .employFilterSction {
         flex: 2;
         max-width: 200px;
-        // height: 100%;
-        // position: fixed;
-        // grid-area: calc(100% - 100px);
         border: 1px solid red;
         padding: 1rem;
 
-        // padding: 0 auto;
         button {
             margin: 1.4rem;
         }
@@ -79,16 +75,13 @@
     }
 
     .cardBG {
-        // max-width: calc(100% - 250px);
         display: flex;
-        // flex-direction: row-reverse;
         grid-area: auto;
         justify-content: space-around;
         flex: 4;
         gap: 1rem;
         flex-wrap: wrap;
         margin: 1.5rem;
-        // margin-left: auto;
 
         .emplyCard {
             display: flex;
@@ -102,7 +95,6 @@
             .emplyCardImg {
                 width: 13rem;
                 height: 13rem;
-                // border-radius: 50%;
             }
 
             .emplyCardBody {
@@ -138,7 +130,7 @@
 .productTitle{
     h1{
         text-align: center;
-        margin: 4rem 0;
+        padding: 6rem 0 0 0 ;
     }
 }
 
@@ -155,7 +147,6 @@
     }
     td{
         font-size: 1.2rem;
-        // margin: 0 auto;
         text-align: center;
         div > span{
             padding: 0 0.4rem;
@@ -163,6 +154,47 @@
             &:hover{
                 color: red;
             }
+        }
+    }
+}
+
+
+
+// home cdd
+
+.homeBg{
+    background-color: #0084ff1b;
+    overflow: hidden;
+    position: relative;
+    .home{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        h1{
+            font-size: 4.8rem;
+            width: 70%;
+            line-height: 5rem;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 1.4rem;
+            width: 50%;
+        }
+        .svghomeRight{
+            position: absolute;
+            right: -10px;
+            z-index: -1;
+        }
+        .svghomeleft{
+            position: absolute;
+            z-index: -1;
+            top: 10%;
+            left: -19%;
+            color: #ccf5ff;
         }
     }
 }

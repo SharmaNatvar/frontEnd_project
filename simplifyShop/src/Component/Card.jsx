@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from "react";
-import profile from "../assets/profile.jpg"
 import { DELETE_EMPLOY_PENDING } from "../redux-saga/admin/action/action";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-// import { useSelector } from "react-redux";
-// import { deleteDoc, doc } from "firebase/firestore";
-// import { txtDB } from "../config/firebaseConfig";
+
 
 const Card = ({employAadhar ,
     employAddress ,
@@ -19,13 +15,6 @@ id}) => {
 const dispatch = useDispatch()
 const navigate = useNavigate()
 
-        // delete data
-// const handleDelete = async(id) =>{
-//     console.log(id , 'id');
-//     await deleteDoc(doc(txtDB , 'todoList' ,id))
-//     .then((res) => console.log(res))
-
-// }
 
 const handleDeleteClick = (id) => {
     console.log(id , 'id0');
@@ -39,7 +28,6 @@ const handleDeleteClick = (id) => {
     .then(()=>{
       window.location.reload(false)
     })
-    // navigate('/home')
   };
 
 console.log(id , 'id');
