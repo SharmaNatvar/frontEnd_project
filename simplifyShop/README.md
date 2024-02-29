@@ -15,54 +15,54 @@ password = user123
 
 ## Sign Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img0.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img0.png?raw=true)
 
 
 
 
 ## Home Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img1.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img1.png?raw=true)
 
 
 
 
 ## Employ Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img2.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img2.png?raw=true)
 
 
 
 
 ## Add Employ Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img3.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img3.png?raw=true)
 
 
 
 
 ## Update Employ Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img4.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img4.png?raw=true)
 
 
 
 
 ## Product Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img5.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img5.png?raw=true)
 
 
 
 
 ## Add Product Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img6.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img6.png?raw=true)
 
 
 
 
 ## Update Product Page
 
-![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyshop/src/assets/ss/img7.png)
+![App Screenshot](https://github.com/SharmaNatvar/frontEnd_project/blob/main/simplifyShop/src/assets/ss/img7.png?raw=true)
 
